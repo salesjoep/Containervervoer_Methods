@@ -24,7 +24,7 @@ namespace Containervervoer_Test
             bool actualvalue = stack.CanAddContainerToStack(MockContainers.testContainers[0]);
             
             // Assert
-            Assert.AreEqual(trueValue, actualvalue);
+            Assert.AreEqual(trueValue, actualvalue); 
         }
 
         [TestMethod]
