@@ -60,7 +60,7 @@ namespace Containervervoer_Methods.Models
                     }
                     else
                     {
-                        //If it is not the last row
+                        //If it is the last row
                         if (index == rowList.Count - 1)
                         {
                             //If there are less rows than the length

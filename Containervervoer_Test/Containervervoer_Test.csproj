@@ -56,6 +56,7 @@
     <Compile Include="Row\DoAllRowshaveStacks.cs" />
     <Compile Include="Ship\AssignRowsTest.cs" />
     <Compile Include="Ship\DoAllContainersHaveAPlaceTest.cs" />
+    <Compile Include="Ship\DoAllContainersHaveASpot.cs" />
     <Compile Include="Stack\Count Valuable Tests\CountValuableTest.cs" />
     <Compile Include="Stack\Remove Tests\CanRemoveFromListTest.cs" />
     <Compile Include="Stack\Weight Tests\CanAddContainersToEmptyListTest.cs" />
