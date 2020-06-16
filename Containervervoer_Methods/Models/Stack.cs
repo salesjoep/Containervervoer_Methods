@@ -17,10 +17,8 @@ namespace Containervervoer_Methods.Models
         //Class Properties
         private int MaximumStackWeight { get; set; }
         public int CurrentStackWeight { get; set; }
-        public ReadOnlyCollection<Container> containerList
-        {
-            get { return containers.AsReadOnly(); }
-        }
+
+        public List<Container> containerList { get { return containers; } }        
 
 
         //Class Constructor

@@ -13,10 +13,7 @@ namespace Containervervoer_Methods.Models
     {
 
         private List<Stack> stacks = new List<Stack>();
-        public ReadOnlyCollection<Stack> stackList
-        {
-            get { return stacks.AsReadOnly(); }
-        }
+        public List<Stack> stackList { get { return stacks; } }
         public int Length { get; private set; }
 
         public Row(int length)
